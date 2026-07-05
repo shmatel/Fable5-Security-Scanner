@@ -1,3 +1,4 @@
+HEAD
 \# 🔐 Fable 5 Security Scanner
 
 
@@ -100,3 +101,6 @@ Fix: Move to environment variables immediately
 
 Mathew Fidel — CS Student, Riara University, Nairobi
 
+
+# Fable5-Security-Scanner
+34c582537f5a13ebad8b0af2e87c1ea6c074d3ef
