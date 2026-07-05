@@ -1,0 +1,5 @@
+anthropic
+PyGithub
+rich
+requests
+python-dotenv
