@@ -22,25 +22,31 @@ cp .env.example .env
 \# Add your ANTHROPIC\_API\_KEY and GITHUB\_TOKEN to .env
 python scanner.py https://github.com/any/repo
 ```
-\## Example Output
- -SECURITY AUDIT REPORT:
--Repository: example-mpesa-app
--Scanned: 2026-07-01 09:15 EAT
--Files Scanned: 12
--CRITICAL Vulnerabilities: 2
--HIGH Vulnerabilities: 3
--MEDIUM Vulnerabilities: 1
--CRITICAL — app.py
--Fix: Move to environment variables immediately
 
-\## Tech Stack
-\- Python 3.11
-\- Claude Fable 5 (Anthropic API)
-\- PyGithub
-\- Rich (terminal UI)
+Example Output:
+
+<img width="1359" height="462" alt="Screenshot 2026-07-10 154224" src="https://github.com/user-attachments/assets/6ececabb-f5ce-4415-8aed-3ec224f94588" />
+<img width="1354" height="585" alt="Screenshot 2026-07-10 154238" src="https://github.com/user-attachments/assets/e631c5ad-8966-42fb-a879-4e9fa8ef0f71" />
 
 
-\## Built By
+
+
+
+
+Tech Stack:
+Python 3.11
+Claude Fable 5 (Anthropic API)
+PyGithub
+Rich (terminal UI)
+
+
+
+
+
+
+
+
+Built By:
 Mathew Fidel — CS Student, Riara University, Nairobi
-# Fable5-Security-Scanner
+Fable5-Security-Scanner
 34c582537f5a13ebad8b0af2e87c1ea6c074d3ef
