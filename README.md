@@ -5,7 +5,7 @@ Built in response to Claude Fable 5's global release on July 1, 2026 —
 the same model that autonomously found a 29-year-old Squid Proxy memory 
 leak (CVE-2026-47729) and is used by the US Department of Defense.
 
-\## What It Does
+What It Does
 Automatically scans any GitHub repository for:
 - Hardcoded API keys and credentials
 - SQL injection vulnerabilities  
@@ -23,15 +23,15 @@ cp .env.example .env
 python scanner.py https://github.com/any/repo
 ```
 \## Example Output
- SECURITY AUDIT REPORT
-Repository: example-mpesa-app
-Scanned: 2026-07-01 09:15 EAT
-Files Scanned: 12
-CRITICAL Vulnerabilities: 2
-HIGH Vulnerabilities: 3
-MEDIUM Vulnerabilities: 1
-CRITICAL — app.py
-Fix: Move to environment variables immediately
+ -SECURITY AUDIT REPORT:
+-Repository: example-mpesa-app
+-Scanned: 2026-07-01 09:15 EAT
+-Files Scanned: 12
+-CRITICAL Vulnerabilities: 2
+-HIGH Vulnerabilities: 3
+-MEDIUM Vulnerabilities: 1
+-CRITICAL — app.py
+-Fix: Move to environment variables immediately
 
 \## Tech Stack
 \- Python 3.11
