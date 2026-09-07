@@ -50,3 +50,8 @@ Built By:
 Mathew Fidel — CS Student, Riara University, Nairobi
 Fable5-Security-Scanner
 34c582537f5a13ebad8b0af2e87c1ea6c074d3ef
+
+***
+!!! WARNING / DISCLAIMER !!!
+Update(s) may not be configured due to insufficient capital for api-tokens. However, it runs perfectly fine the way it is already.
+***
